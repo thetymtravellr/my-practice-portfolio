@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#banner {
+  background-image: url(/assets/images/top-banner.png);
+  background-repeat: no-repeat;
+  display: flex;
+}
+.div {
+  width: 50%;
+  padding: 2rem;
+}
+
+.right-container img {
+  width: 80%;
+}
+.left-container img {
+  width: 80%;
+}
+h1 {
+  font-size: 3.5rem;
+  margin-top: 4rem;
+}
+.my-name {
+  font-family: "Lobster", cursive;
+  color: blueviolet;
+}
+h4 {
+  margin-top: 2rem;
+}
+p {
+  margin-top: 0.5rem;
+  text-align: justify;
+}
+
+.btn {
+  background-image: linear-gradient(to right, orange, rgb(255, 115, 0));
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  margin: 1rem auto;
+  font-family: "poppins", sans-serif;
+  font-weight: bolder;
+  color: #fff;
+}
+
+#dream {
+  display: flex;
+  background-image: url(/assets/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#experience {
+  display: flex;
+  justify-content: space-around;
+}
+.exp {
+  width: 40%;
+  margin: 3rem 0;
+  padding: 1rem;
+  box-shadow: 8px 8px 20px rgb(102, 101, 101);
+}
+.exp h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.exp h3 {
+  margin-bottom: 2rem;
+  color: orange;
+}
+.exp p {
+  margin-bottom: 5rem;
+}
+.exp {
+  border-left: 5px solid transparent;
+}
+
+.exp-one {
+  border-image: linear-gradient(to top, darkblue, darkorchid) 1;
+}
+
+.exp-two {
+  border-image: linear-gradient(to top, rgb(31, 230, 130), rgb(228, 24, 41)) 1;
+}
